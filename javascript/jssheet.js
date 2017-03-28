@@ -28,21 +28,20 @@ console.log(person(" Joe "));
 
 3. Print the classic "99 bottles of beer on the wall" song to the console, in its entirety, using a for loop. Then make a copy of that, and rewrite it to use a while loop instead.
 
-//FOR LOOP
-var song = ("99 Bottles of beer in the wall, 99 bottles of beer, take one down pass it around 98 bottles of beer on the wall.");
+FOR LOOP of the song 99 bottles of beer...
 
-for (var i = 0; i < song.length; i++) {
-  console.log(song);
+for (var b = 99; b > 0; b--) {
+  console.log(b + "bottles of beer on the wall");
 }
 
-//WHILE LOOP
+ //WHILE LOOP
 
-// var song = "99 Bottles of beer in the wall, 99 bottles of beer, take one down pass it around 98 bottles of beer on the wall.";
-//
-// while (song.length < 99) {
-//   song = song + "99 Bottles of beer in the wall, 99 bottles of beer, take one down pass it around 98 bottles of beer on the wall.";
-//   console.log(song);
-// }
+var b = 99;
+  while (b > 0){
+    console.log(b + " bottles of beer on the wall ", + b + " bottles of beer...");
+        b--;
+    console.log(" take one down, pass it around ", + b + " bottles of beer on the wall");
+  }
 
 // 4. Declare a function that takes in an array as an argument, and console logs out all of its elements backwards.
 
