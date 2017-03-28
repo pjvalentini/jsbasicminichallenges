@@ -28,7 +28,7 @@ console.log(person(" Joe "));
 
 // 3. Print the classic "99 bottles of beer on the wall" song to the console, in its entirety, using a for loop. Then make a copy of that, and rewrite it to use a while loop instead.
 
-FOR LOOP of the song 99 bottles of beer...
+// FOR LOOP of the song 99 bottles of beer...
 
 for (var b = 99; b > 0; b--) {
   console.log(b + "bottles of beer on the wall");
@@ -37,7 +37,7 @@ for (var b = 99; b > 0; b--) {
  //WHILE LOOP
 
 var b = 99;
-  while (b > 0){
+  while (b >= 1){
     console.log(b + " bottles of beer on the wall ", + b + " bottles of beer...");
         b--;
     console.log(" take one down, pass it around ", + b + " bottles of beer on the wall");
