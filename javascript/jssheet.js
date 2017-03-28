@@ -14,7 +14,7 @@ var meats = [burgers, hotDogs]
   console.log(meats[0][0]);
   console.log(meats[1][0]);
 
-2. Declare a function that takes a name as an argument, and returns a new string that compliments that person.
+// 2. Declare a function that takes a name as an argument, and returns a new string that compliments that person.
 
 
 function person(name) {
@@ -26,7 +26,7 @@ console.log(person(" Bill "));
 console.log(person(" Joe "));
 
 
-3. Print the classic "99 bottles of beer on the wall" song to the console, in its entirety, using a for loop. Then make a copy of that, and rewrite it to use a while loop instead.
+// 3. Print the classic "99 bottles of beer on the wall" song to the console, in its entirety, using a for loop. Then make a copy of that, and rewrite it to use a while loop instead.
 
 FOR LOOP of the song 99 bottles of beer...
 
