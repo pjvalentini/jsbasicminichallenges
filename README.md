@@ -1,2 +1,2 @@
 # jsbasicminichallenges
-Basic JS Mini Challenge Assignment.
+Basic JS Mini Challenge Assignment for NYCDA.
